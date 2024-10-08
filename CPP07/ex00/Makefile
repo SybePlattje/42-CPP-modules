@@ -1,7 +1,7 @@
-NAME = IdentifyType
+NAME = Template
 
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -MMD -MP -g
+CFLAGS = -Wall -Wextra -Werror -MMD -MP -g 
 
 SRC_DIR = ./src
 SRC = $(wildcard $(SRC_DIR)/*.cpp)
